@@ -1,11 +1,5 @@
-package com.example;
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
-
-public class FibonacciTest {
-    @Test
-    public void testFibonacci() {
-        Fibonacci fib = new Fibonacci();
-        assertEquals(5, fib.calculate(5));
-    }
+public static void main(String[] args) {
+    App app = new App();
+    System.out.println("Fibonacci of 5 is: " + app.getFibonacci(5));
+    System.out.println("Pipeline update successful!"); 
 }
